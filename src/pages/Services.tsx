@@ -105,14 +105,12 @@ export default function Services() {
                 </div>
 
                 <div className="pt-4">
-                  <a 
-                    href={`https://wa.me/2348039272745?text=Hello%20Astaar%20Interior%20Decoration,%20I%20am%20interested%20in%20inquiring%20about%20${encodeURIComponent(service.title)}.`} 
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link 
+                    to="/contact" 
                     className="inline-flex items-center gap-3 bg-dark-brown text-white px-8 py-4 rounded-full font-bold uppercase tracking-widest hover:bg-gold transition-all group"
                   >
                     Inquire Now <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </motion.div>
@@ -128,14 +126,12 @@ export default function Services() {
             Our design experts can visit your site, take measurements, and help you select the best materials for your needs.
           </p>
           <div className="pt-6">
-            <a 
-              href="https://wa.me/2348039272745?text=Hello%20Astaar%20Interior%20Decoration,%20I'd%20love%20to%20schedule%20a%20site%20visit%20for%20measurement%20and%20consultation."
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link 
+              to="/contact"
               className="text-gold font-gold uppercase tracking-[0.2em] font-bold border-b-2 border-gold pb-1 hover:text-dark-brown hover:border-dark-brown transition-colors"
             >
               Schedule Your Visit Today
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -52,17 +52,15 @@ export default function Footer() {
       </div>
 
       {/* Footer Bar - High Density Pattern */}
-      <div className="h-auto md:h-20 bg-white border-t border-soft-beige px-6 py-6 md:py-0 flex items-center">
-        <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-6">
-          <a
-            href="https://wa.me/2348039272745?text=Hello%20Astaar%20Interior%20Decoration,%20I'd%20like%20to%20schedule%20a%20measurement%20and%20consultation%20visit."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gold text-white px-5 py-2.5 font-bold text-[11px] tracking-widest uppercase hover:bg-dark-brown transition-all"
+      <div className="h-auto bg-white border-t border-soft-beige px-6 py-6 md:py-8 flex items-center">
+        <div className="max-w-7xl mx-auto w-full flex flex-col xl:flex-row items-center justify-between gap-6 md:gap-8">
+          <Link
+            to="/contact"
+            className="bg-gold text-white px-5 py-2.5 font-bold text-[11px] tracking-widest uppercase hover:bg-dark-brown transition-all text-center"
           >
             Measurement & Consultation Available
-          </a>
-          <div className="hidden lg:flex gap-12 text-[12px]">
+          </Link>
+          <div className="flex flex-col md:flex-row md:flex-wrap gap-6 md:gap-12 text-[12px] text-center md:text-left justify-center">
             <div>
               <span className="block text-dark-brown font-bold tracking-tight mb-1">Visit Us</span>
               <span className="text-gray-400 font-light">Opposite UBA, Main Market, Gombe</span>

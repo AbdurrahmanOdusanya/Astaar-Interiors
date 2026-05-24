@@ -44,15 +44,13 @@ export default function Home() {
               Transform your residential and commercial spaces with our premium collection of curtains, blinds, and high-end flooring solutions. We offer professional installation and bespoke designs.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a
-                href="https://wa.me/2348039272745?text=Hello%20Astaar%20Interior%20Decoration,%20I%20want%20to%20book%20a%20professional%20consultation%20for%20my%20space."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gold text-white px-8 py-3.5 text-[12px] font-bold uppercase tracking-widest hover:bg-dark-brown transition-all shadow-lg"
+              <Link
+                to="/contact"
+                className="bg-gold text-white px-8 py-3.5 text-[12px] font-bold uppercase tracking-widest hover:bg-dark-brown transition-all shadow-lg text-center"
               >
                 Book Consultation
-              </a>
-              <Link to="/portfolio" className="border border-gold text-gold px-8 py-3.5 text-[12px] font-bold uppercase tracking-widest hover:bg-gold hover:text-white transition-all">
+              </Link>
+              <Link to="/portfolio" className="border border-gold text-gold px-8 py-3.5 text-[12px] font-bold uppercase tracking-widest hover:bg-gold hover:text-white transition-all text-center">
                 Our Gallery
               </Link>
             </div>
@@ -110,21 +108,19 @@ export default function Home() {
       </div>
 
       {/* Measurement Banner Refined */}
-      <div className="bg-gold h-20 flex items-center px-6 shadow-md">
-        <div className="max-w-7xl mx-auto flex items-center justify-between w-full text-white">
-           <span className="text-[12px] font-bold tracking-[0.1em] uppercase hidden md:block">Measurement & Consultation Available</span>
-           <div className="flex gap-10 text-[11px]">
-             <div className="hidden sm:block"><strong>Visit Us:</strong> Opposite UBA, Main Market, Gombe</div>
-             <div className="hidden sm:block"><strong>Hours:</strong> Mon – Sun | 10AM – 6PM</div>
+      <div className="bg-gold py-4 min-h-20 flex items-center px-6 shadow-md">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 w-full text-white">
+           <span className="text-[12px] font-bold tracking-[0.1em] uppercase text-center sm:text-left">Measurement & Consultation Available</span>
+           <div className="flex flex-col sm:flex-row gap-2 sm:gap-10 text-[11px] text-center sm:text-left">
+             <div><strong>Visit Us:</strong> Opposite UBA, Main Market, Gombe</div>
+             <div><strong>Hours:</strong> Mon – Sun | 10AM – 6PM</div>
            </div>
-           <a 
-             href="https://wa.me/2348039272745?text=Hello%20Astaar%20Interior%20Decoration,%20I'd%20like%20to%20arrange%20a%20measurement%20and%20consultation%20visit." 
-             target="_blank"
-             rel="noopener noreferrer"
-             className="bg-white text-gold px-6 py-2 text-[10px] font-bold uppercase tracking-widest shadow-sm hover:scale-105 transition-all"
+           <Link 
+             to="/contact" 
+             className="bg-white text-gold px-6 py-2 text-[10px] font-bold uppercase tracking-widest shadow-sm hover:scale-105 transition-all whitespace-nowrap"
            >
              Contact Now
-           </a>
+           </Link>
         </div>
       </div>
 
@@ -177,9 +173,9 @@ export default function Home() {
               className="rounded-[40px] shadow-2xl relative z-10 w-full object-cover max-h-[500px]"
               referrerPolicy="no-referrer"
             />
-            <div className="absolute -bottom-10 -right-10 bg-gold p-10 rounded-[40px] z-20 text-white hidden md:block">
-              <span className="text-5xl font-bold block mb-1">10+</span>
-              <span className="text-xs uppercase tracking-widest font-semibold">Years of Excellence</span>
+            <div className="absolute -bottom-4 md:-bottom-10 -right-4 md:-right-10 bg-gold p-6 md:p-10 rounded-2xl md:rounded-[40px] z-20 text-white shadow-xl">
+              <span className="text-3xl md:text-5xl font-bold block mb-1">10+</span>
+              <span className="text-[10px] md:text-xs uppercase tracking-widest font-semibold">Years of Excellence</span>
             </div>
           </div>
 
@@ -221,22 +217,12 @@ export default function Home() {
             Contact us today for a consultation and let our expert team design the interior of your dreams.
           </p>
           <div className="flex flex-wrap justify-center gap-6">
-            <a 
-              href="https://wa.me/2348039272745?text=Hello%20Astaar%20Interior%20Decoration,%20I'd%20love%20to%20get%20started%20on%20beautifying%20my%20home!" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gold text-white px-10 py-4 font-bold uppercase tracking-widest hover:scale-105 transition-all shadow-xl"
+            <Link 
+              to="/contact" 
+              className="bg-gold text-white px-10 py-4 font-bold uppercase tracking-widest hover:scale-105 transition-all shadow-xl text-center"
             >
               Get Started Now
-            </a>
-            <a 
-              href="https://wa.me/2348039272745?text=Hello%20Astaar%20Interior%20Decoration,%20I%20need%20assistance/support%20with%20my%20interior%20project." 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-gold text-gold px-10 py-4 font-bold uppercase tracking-widest hover:bg-gold hover:text-white transition-all"
-            >
-              Contact Support
-            </a>
+            </Link>
           </div>
         </div>
       </section>

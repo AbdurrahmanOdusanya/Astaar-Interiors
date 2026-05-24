@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 
 import royalCurtainsImg from '../assets/images/portfolio_royal_curtains_1779569489611.png';
 import modernBlindsImg from '../assets/images/service_blinds_1779568776276.png';
@@ -110,9 +111,9 @@ export default function Portfolio() {
           <h2 className="text-3xl md:text-4xl font-serif">Want results like these?</h2>
           <p className="opacity-90 font-light">Join our growing list of satisfied clients in Gombe and elevate your living standards today.</p>
           <div className="pt-4">
-             <a href="https://wa.me/2348023747142" target="_blank" className="bg-dark-brown text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest inline-block shadow-lg hover:scale-105 transition-transform">
+             <Link to="/quote" className="bg-dark-brown text-white px-10 py-4 rounded-full font-bold uppercase tracking-widest inline-block shadow-lg hover:scale-105 transition-transform">
                 Start My Project
-             </a>
+             </Link>
           </div>
         </div>
       </section>

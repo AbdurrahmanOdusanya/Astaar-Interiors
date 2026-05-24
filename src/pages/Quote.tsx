@@ -30,7 +30,7 @@ export default function Quote() {
 Generated from Astaar online platform.`;
 
     const encodedText = encodeURIComponent(textMessage);
-    const whatsappUrl = `https://wa.me/2348039272745?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/2348060458558?text=${encodedText}`;
 
     setTimeout(() => {
       setFormState('success');
@@ -56,7 +56,7 @@ Generated from Astaar online platform.`;
           </p>
           <div className="flex flex-col gap-4 max-w-xs mx-auto pt-4">
             <a 
-              href={`https://wa.me/2348039272745?text=${encodeURIComponent(`*ASTAAR INTERIOR DECORATION - NEW QUOTE REQUEST*\n-----------------------------\n👤 *Full Name:* ${fullName}\n📞 *Phone Number:* ${phoneNumber}\n📍 *Project Location:* ${location}\n🛠️ *Service Needed:* ${serviceNeeded}\n✨ *Style Preference:* ${stylePreference}\n💰 *Budget Range:* ${budgetRange}\n📝 *Additional Message:* ${message || 'No additional message.'}`)}`}
+              href={`https://wa.me/2348060458558?text=${encodeURIComponent(`*ASTAAR INTERIOR DECORATION - NEW QUOTE REQUEST*\n-----------------------------\n👤 *Full Name:* ${fullName}\n📞 *Phone Number:* ${phoneNumber}\n📍 *Project Location:* ${location}\n🛠️ *Service Needed:* ${serviceNeeded}\n✨ *Style Preference:* ${stylePreference}\n💰 *Budget Range:* ${budgetRange}\n📝 *Additional Message:* ${message || 'No additional message.'}`)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gold text-white text-xs font-bold uppercase tracking-widest py-4 shadow-lg flex items-center justify-center gap-2"
