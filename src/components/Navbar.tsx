@@ -62,14 +62,12 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <a
-            href={quoteUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/quote"
             className="bg-gold text-white px-5 py-2.5 rounded-none text-[12px] font-bold uppercase tracking-widest hover:bg-dark-brown transition-all shadow-md"
           >
             Request Quote
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
