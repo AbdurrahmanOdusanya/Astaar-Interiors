@@ -74,7 +74,17 @@ export default function Footer() {
               <span className="text-gray-400 font-light">Mon – Sun | 10AM – 6PM</span>
             </div>
           </div>
-          <p className="text-[10px] text-gray-300 uppercase tracking-widest font-bold">© {new Date().getFullYear()} ASTAAR.</p>
+          <div className="flex flex-col items-center xl:items-end gap-1">
+            <p className="text-[10px] text-gray-300 uppercase tracking-widest font-bold">© {new Date().getFullYear()} ASTAAR.</p>
+            <a 
+              href="https://github.com/AbdurrahmanOdusanya" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-[10px] text-gold hover:text-dark-brown/60 uppercase tracking-widest font-bold transition-colors"
+            >
+              Made by Yerima
+            </a>
+          </div>
         </div>
       </div>
     </footer>
