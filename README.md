@@ -99,7 +99,8 @@ Contributions, issues, and feature requests are welcome!
 
 <div align="center">
 
-Made with ❤️ and refined taste 
+Made with ❤️ and precision craftsmanship 
+
 ⭐ Star this repo if you like the project!
 
 </div>
