@@ -100,6 +100,7 @@ Contributions, issues, and feature requests are welcome!
 <div align="center">
 
 Made with ❤️ and precision craftsmanship by Abdurrahman Odusanya
+
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/abdurrahmanodusanya/) | [X (Twitter)](https://x.com/WaleAbdurrahman)*
 
 ⭐ Star this repo if you like the project!
